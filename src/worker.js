@@ -167,7 +167,7 @@ async function getProxyContract() {
     // } else {
     //   proxyAddress = await resolver.resolve(torn.tornadoRouter.address)
     // }
-    const contract = new web3.eth.Contract(tornadoProxyABI, '0x5C3ac7074caFED8F296CC25786d5E79C7c079838')
+    const contract = new web3.eth.Contract(tornadoProxyABI, '0x73c36830296Cf339027285AedD3251b4D276f44D')
     return {
         contract,
         isOldProxy: false,
